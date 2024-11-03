@@ -1,0 +1,9 @@
+export const GAME_CONFIG = {
+  SCREEN_WIDTH: 500,
+  SCREEN_HEIGHT: 600,
+  GRAVITY: 0.5,
+  JUMP_STRENGTH: 7,
+  PIPE_WIDTH: 60,
+  PIPE_GAP: 200,
+  PIPE_SPEED: 3,
+} as const;
